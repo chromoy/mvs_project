@@ -1,0 +1,22 @@
+{
+  "name": "mvs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromoy/mvs_project.git"
+  },
+  "author": "Mikhail Subbotin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chromoy/mvs_project/issues"
+  },
+  "homepage": "https://github.com/chromoy/mvs_project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

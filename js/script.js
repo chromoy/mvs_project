@@ -83,18 +83,32 @@ document.querySelector('title').innerHTML = 'ИЗУЧАЕМ JS';
 //   console.log(key, value);
 // });
 
-const arr = ['Alex', 'Ann', 'Oleg', 'Alex'];
+// const arr = ['Alex', 'Ann', 'Oleg', 'Alex'];
 
-const set = new Set(arr);
+// const set = new Set(arr);
 
-set.add('Ivan');
-// set.delete('Alex');
-// set.size;
+// set.add('Ivan');
+// // set.delete('Alex');
+// // set.size;
 
-//console.log(set);
+// //console.log(set);
 
-// for (let value of set) console.log(value);
+// // for (let value of set) console.log(value);
 
-set.forEach((value, valueAgaing, set) =>{
-  console.log(value, valueAgaing);
-});
+// set.forEach((value, valueAgaing, set) =>{
+//   console.log(value, valueAgaing);
+// });
+
+// ----------- BigInt ----------------------
+
+// const bigint = 1234848878759797942307790729902399005757n;
+
+const sameBigInt = BigInt(1234848878759797942307790729902399005757);
+
+// console.log(typeof(sameBigInt));
+
+let bigint = 1n;
+let number = 2;
+
+console.log(bigint + BigInt(number));
+console.log(Number(bigint) + number);
